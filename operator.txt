@@ -1,0 +1,151 @@
+Datatypes and its  example:
+
+int – Integer numbers 
+example:
+(5,-10,1000)
+
+float-Floating-point numbers
+example:
+(3.14,-0.5)
+
+complex-complex numbers
+example:
+(2+3j)
+
+str-String (text)
+example:
+("hello")
+
+list-ordered, mutable collection
+example:
+[1,2,3,4]
+
+tuple-ordered, immutable collection
+example:
+(1,2,3,4,5)
+
+dict-key-values pairs
+example:
+{"name": "saran", "age", 25}
+
+set-Unordered, mutable collection of unique items
+example:
+{1,2,3}
+
+bool – Logical values (True or False)
+
+
+
+
+
+
+
+Types of operators in python
+
+1. Arithmetic Operators
+Used for basic mathematical operations.
+
+Operator	Description	Example (a=10, b=3)	Result
++	Addition	a + b	13
+-	Subtraction	a - b	7
+*	Multiplication	a * b	30
+/	Division (float)	a / b	3.3333
+//	Floor Division	a // b	3
+%	Modulus (remainder)	a % b	1
+**	Exponentiation	a ** b	1000
+
+
+2. Comparison (Relational) Operators
+Used to compare values; returns True or False.
+
+Operator	Description	Example (a=10, b=3)	Result
+==	Equal to	a == b	False
+!=	Not equal to	a != b	True
+>	Greater than	a > b	True
+<	Less than	a < b	False
+>=	Greater or equal	a >= b	True
+<=	Less or equal	a <= b	False
+
+
+3. Logical Operators
+Used to combine conditional statements.
+
+Operator	Description	Example (x=True, y=False)	Result
+and	True if both are True	x and y	False
+or	True if at least one is True	x or y	True
+not	Inverts the result	not x	False
+
+
+4. Assignment Operators
+Used to assign values to variables.
+
+Operator	Example	Equivalent to
+=	a = 5	a = 5
++=	a += 3	a = a + 3
+-=	a -= 3	a = a - 3
+*=	a *= 3	a = a * 3
+/=	a /= 3	a = a / 3
+//=	a //= 3	a = a // 3
+%=	a %= 3	a = a % 3
+**=	a **= 3	a = a ** 3
+
+
+5. Bitwise Operators
+Operate on binary representations of integers.
+
+Operator	Description	Example (a=5 (0101), b=3 (0011))	Result
+&	AND	a & b → 0001 (1)	
+`	`	OR	`a
+^	XOR	a ^ b → 0110 (6)	
+~	NOT	~a → -(a+1) → -6	
+<<	Left shift	a << 1 → 1010 (10)	
+>>	Right shift	a >> 1 → 0010 (2)
+
+	
+6. Membership Operators
+Check if a value exists in a sequence.
+
+Operator	Example	Result
+in	'a' in 'apple'	True
+not in	'x' not in 'apple'	True
+
+
+7. Identity Operators
+Check if two objects share the same memory location.
+
+Operator	Example	Result
+is	a is b	True if same object
+is not	a is not b	True if different objects
+
+
+Example Program
+Python
+
+
+
+a, b = 10, 3
+
+# Arithmetic
+print("Addition:", a + b)
+print("Division:", a / b)
+
+# Comparison
+print("Is a > b?", a > b)
+
+# Logical
+print("Logical AND:", (a > 5) and (b < 5))
+
+# Assignment
+a += 2
+print("After += 2:", a)
+
+# Bitwise
+print("Bitwise AND:", a & b)
+
+# Membership
+print("'p' in 'apple':", 'p' in 'apple')
+
+# Identity
+x = [1, 2]
+y = x
+print("x is y:", x is y)
